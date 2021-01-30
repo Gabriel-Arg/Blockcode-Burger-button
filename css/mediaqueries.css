@@ -1,0 +1,54 @@
+/* ---- 900 A 1200 -------------------------------------------- */
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+
+}
+
+/* ---- 768 A 899 ---------------------------------------------- */
+@media screen and (min-width: 768px) and (max-width: 899px) {
+
+}
+
+/*------600 A 767------------------------------------------------ */
+@media screen and (min-width: 600px) and (max-width: 767px) {
+    header {
+        height: auto;
+    }
+
+    .wraper {
+        width: 90vw;
+    }
+}
+
+/* -----480 A 599----------------------------------------------- */
+@media screen and (min-width: 480px) and (max-width: 599px) {
+    header {
+        height: auto;
+    }
+
+    .wraper {
+        width: 100vw;
+        flex-direction: column;
+    }
+
+    .burger-icon {
+        display: flex;
+    }
+
+}
+
+/* ----- MENOR 479 ----------------------------------------------------- */
+@media screen and (max-width: 479px) {
+    header {
+        height: auto;
+    }
+
+    .wraper {
+        width: 100vw;
+        flex-direction: column;
+    }
+
+    .burger-icon {
+        display: flex;
+    }
+
+}

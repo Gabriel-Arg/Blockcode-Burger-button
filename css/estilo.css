@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+h2 {
+    color: gray;
+}
+/* ------HEADER-------------------------- */
+header {
+    background-color: #EE4540;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+figure {
+    border: 1px solid white;
+    display: flex;
+}
+
+header img {
+    width: 150px;
+}
+
+/* --------- MENU----------------------------- */
+nav {
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    width: auto;
+    display: flex;
+    padding: 0px;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    margin: 0px 20px;
+    font-size: 25px;
+}
+
+.burger-icon {
+    background-color: grey;
+    display: none;
+    width: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 20px 0px 0px 20px;
+    position: fixed;
+}
+.burger-icon img {
+    width: 100%;
+}
+
+/* ----MAIN----------------------------------- */
+main {
+    background-color: #C92A42;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-color: #801336;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: #510A32;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* -------WRAPER--------------------- */
+.wraper {
+    border: 1px solid white;
+    width: 80vw;
+    height: 100%;
+
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wraper div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+/* ------------------------------------ */
+
