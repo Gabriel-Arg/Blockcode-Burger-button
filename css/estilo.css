@@ -15,7 +15,6 @@ header {
 }
 
 figure {
-    border: 1px solid white;
     display: flex;
 }
 
@@ -25,7 +24,6 @@ header img {
 
 /* --------- MENU----------------------------- */
 nav {
-    border: 1px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,8 +51,10 @@ ul {
     width: 50px;
     padding: 10px;
     border-radius: 50%;
-    margin: 20px 0px 0px 20px;
     position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 3;
 }
 .burger-icon img {
     width: 100%;
@@ -86,7 +86,6 @@ footer {
 }
 /* -------WRAPER--------------------- */
 .wraper {
-    border: 1px solid white;
     width: 80vw;
     height: 100%;
 
