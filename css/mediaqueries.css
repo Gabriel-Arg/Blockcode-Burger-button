@@ -1,0 +1,121 @@
+/* ---- 900 A 1200 -------------------------------------------- */
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+
+}
+
+/* ---- 768 A 899 ---------------------------------------------- */
+@media screen and (min-width: 768px) and (max-width: 899px) {
+
+}
+
+/*------600 A 767------------------------------------------------ */
+@media screen and (min-width: 600px) and (max-width: 767px) {
+    header {
+        height: auto;
+    }
+
+    .wraper {
+        width: 90vw;
+    }
+}
+
+/* -----480 A 599----------------------------------------------- */
+@media screen and (min-width: 480px) and (max-width: 599px) {
+    header {
+        height: auto;
+    }
+
+    nav {
+        margin-bottom: 20px;
+    }
+
+    .wraper {
+        width: 100vw;
+        flex-direction: column;
+    }
+
+    .burger-icon {
+        display: flex;
+    }
+/*                MENU ACTIVO Y OCULTO ------------------ */
+    .menu-activo {
+        background-color: grey;
+        height: 100%;
+        width: 50vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        z-index: 2;
+        transition: 0.3s;
+    }
+
+    .menu-activo ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 100px;
+    }
+    .menu-activo li {
+        margin: 20px 0px;
+    }
+
+    .menu-oculto {
+        left: -50vw;
+    }
+}
+
+/* ----- MENOR 479 ------------------------------------- */
+@media screen and (max-width: 479px) {
+    header {
+        height: auto;
+    }
+
+    nav {
+        margin-bottom: 20px;
+    }
+
+    .wraper {
+        width: 100vw;
+        flex-direction: column;
+    }
+
+    .burger-icon {
+        display: flex;
+    }
+
+/* ---------MENU OCULTO Y ACTIVO---------------------- */
+.menu-activo {
+    background-color: grey;
+    height: 100%;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+    transition: 0.3s;
+}
+
+.menu-activo ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 100px;
+}
+.menu-activo li {
+    margin: 20px 0px;
+}
+
+.menu-oculto {
+    left: -50vw;
+}
+
+
+}
