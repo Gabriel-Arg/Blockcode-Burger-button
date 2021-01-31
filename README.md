@@ -1,11 +1,6 @@
 # Burger-button 👉🏼 🍔
 Codigo para el armado de un "Menú hamburguesa"  basico, utilizando html, css y javascript. El mokup cuenta con 1 header, 1 main, 1 section y 1 footer. En el header tenemos el "menú" con sus liks que nos redirigen hacia las diferentes secciones de la página. El burger-button permanece oculto hasta que el viewport tiene las medidas de un dispositivo movil, a partir de dicho breack point aparece. Al hacerle click al burger-button se despliega lateralmente el menú.
 
-<div style="display: flex;">
-    <img src="img/screeshot1.png" alt="" style="width: 200px;">
-    <img src="img/screenshot2.png" alt="" style="width: 200px;">
-</div>
-
 ####Puntos a tener en cuenta:
 
 - El elemento "nav" contiene a nuestro menú.
@@ -43,3 +38,7 @@ Codigo para el armado de un "Menú hamburguesa"  basico, utilizando html, css y 
     }
 </script
 ```
+<div style="display: flex;">
+    <img src="img/screeshot1.png" alt="" style="width: 150px;">
+    <img src="img/screenshot2.png" alt="" style="width: 150px;">
+</div>
