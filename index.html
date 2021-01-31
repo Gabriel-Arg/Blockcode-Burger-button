@@ -75,6 +75,36 @@
         </div>
     </footer>
 
+<!-- ----------------- JAVASCRIPT PARA EL BURGUER BUTTON-------------------- -->
+
+<script>
+
+    // SELECTORES --- seleccionamos a la class que contiene al nav y al boton hamburgueza.
+    document.querySelector ('.menu-activo');
+    document.querySelector ('.burger-icon');
+
+    // VARIABLES CONSTANTES
+    const menu = document.querySelector ('.menu-activo');
+    const burgerButton = document.querySelector ('.burger-icon');
+
+    // DEJO UN MENSAJE CON LAS VARIABLES
+    console.log (menu);
+    console.log (burgerButton);
+
+    // EVENTO SOBRE EL BURGER-BUTTON
+    burgerButton.addEventListener ('click', desplegar);
+
+    // FUNCIÓN para que DESPLIEGUE Y SE OCULTE EL MENU
+    function desplegar () {
+        if (menu.classList.contains ('menu-oculto')) {
+                menu.classList.remove ('menu-oculto');
+        }
+        else {
+            menu.classList.add ('menu-oculto');
+        }
+    }
+
+</script>
 
 
 
