@@ -103,19 +103,21 @@
     transition: 0.3s;
 }
 
-.menu-activo ul {
+    .menu-activo ul {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 100px;
+    margin-top: 50px;
 }
-.menu-activo li {
+    .menu-activo li {
     margin: 20px 0px;
 }
+    .link {
+        font-size: 20px;
+    }
 
 .menu-oculto {
     left: -50vw;
 }
-
 
 }
